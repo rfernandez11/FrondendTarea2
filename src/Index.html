@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="./assets/Img/control_40867.ico" type="imagen/x-icon">
+   
+    <!--Importar el Javascript-->
+    <script src="./Index.js"></script> 
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <link rel="stylesheet" href="Styles.css">
+    <title>Login</title>
+</head>
+
+<!-- -------------------------------------- --> 
+<body class = "principal"> 
+    <div class="col-12">
+        <div class="contenedor">
+            <div class="row">
+                <img src="./assets/Img/logo.png" class = "logo-empresa">
+                <h1 class="etiqueta1">Ferseg S.A</h1>  
+            </div>
+            <hr>
+            <br>
+            <div  id="form">
+                <div>
+                    <div class="caja_usuario">
+                        <div class="icon_avatar">
+                            <img src="./assets/Img/usuario.png">
+                        </div>
+                        <div class="divider">|</div>
+                        <div>
+                            <input type="text" id="txtUser" placeholder="Usuario..." required>
+                        </div>
+     
+                    </div>
+                    <br>
+                    <div class="caja_password">
+                        <div class="icon_pass">
+                            <img src="./assets/Img/lock.png">
+                        </div>
+                        <div class="divider">|</div>
+                        <div>
+                            <input type="password" id="txtPass" placeholder="Contraseña..." autocomplete="off" autocapitalize="off" required>
+                       
+                        </div>
+                    </div>                
+                    <br>
+                    <div class="botonIngresar">
+                        <button onclick="IniciarSeccion()">Ingresar</button>
+                    </div>
+                    
+                </div>
+               
+            </div>
+        
+           
+        </div>
+    </div>
+</body>
+</html>

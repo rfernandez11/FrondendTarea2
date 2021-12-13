@@ -1,0 +1,249 @@
+/*Para quitar los margenes */
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 695px;
+  }
+  
+  /*Para poner imagen de fondo*/
+  .principal{
+      background-color: #1E1E1E;
+      background-image: url("../../Assets/Img/FondoPantalla.jpg");
+      background-size: cover;
+  }
+  
+  /*Las características del encabezado*/
+  .header{
+      display: flex;
+      background-color: rgba(85, 83, 83, 0.137);
+      height: 43px;
+  }
+  
+  .header h1{
+      font-size: 15px;
+      margin-right: 15px;   
+  }
+  
+  /*Ancho de las columnas*/
+  .col-6{
+      width: 50%; 
+  }
+  
+  .inicio{
+      align-items: center;
+      display: flex;
+      justify-content: left;
+      color: chartreuse;
+  }
+  
+  .logo-inicio{
+      width: 35px;
+      margin-left: 4px;
+      margin-right: 10px;
+  }
+  
+  /*Para que todo se alinie en un reglón, centrado y al final*/
+  .navegador{
+      align-items: center;
+      display: flex;
+      justify-content: end;  
+  }
+  
+  /*Configuración de Inicio y Sobre mi*/
+  .navegador a{
+      text-decoration: none;
+      color: rgb(194,55,219);
+      font-weight: bold;
+      font-size: 15px;
+      margin-right: 23px;
+      transition: all 0.6s; 
+  }
+  
+  .navegador a:hover{
+      font-size: 17px;
+      color:greenyellow
+  }
+  
+  /*Ajustar el tamaño del icono de facebook*/
+  .boton-facebook{
+      width: 25px;
+      margin-top: 9px;
+  }
+  .boton-facebook:hover{
+      width: 27px;
+  }
+  
+  /*---------------------------------------------------------------------*/
+  .col-12{
+      display: flex;
+      justify-content: center;
+    
+  }
+  
+  .contenedor{
+      width: 700px;
+      height: 400px;
+      margin-top: 75px;
+      background-color: rgba(236, 236, 236, 0.1);
+      border-radius: 5px;  
+      padding: 15px;
+  }
+  
+  .row{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .etiqueta1{
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      color: white;
+  }
+  
+  .etiqueta2{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+hr{
+    color: rgb(194,55,219);
+}
+
+.etiqueta3{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bold;
+    transition: all 0.6s;
+}
+
+.etiqueta3:hover {
+    font-size: 20px;
+    color:  rgb(194,55,219);
+    
+}   
+  
+.logo-empresa{
+    width: 65px;
+    margin-left: 4px;
+    margin-right: 10px;
+}
+  /*------------------------------*/
+  /*Login*/
+  #form{
+    margin-top: 45px;
+    color: white;
+    font-size: 18px;  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.caja_usuario{
+    display: flex;
+    align-items: center;
+    background-color: rgb(48, 48, 48);
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.caja_password{
+    display: flex;
+    align-items: center;
+    background-color: rgb(48, 48, 48);
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.icon_avatar img{
+    width: 20px;
+    margin-top: 4px;
+}
+
+.icon_pass img{
+    width: 20px;
+    margin-top: 4px;
+}
+
+.caja_usuario .divider{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.caja_password .divider{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#txtName{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    border: none;
+}
+#txtPass{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    border: none;
+}
+
+.botonIngresar{
+    display: flex;
+    justify-content: center;
+}
+
+.btnIngresar{
+    width: 85px;
+    height: 25px;
+    font-weight: bold;
+}
+
+
+
+/*------------------------------------------------------*/
+/*About*/
+.curriculum{
+    height: 100%;
+    display: flex;
+}
+
+.col-4{
+    width: 55%;
+    justify-content: center;
+    background-color: rgb(194, 191, 191);
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+.col-4.star{
+    padding: 20px;
+    width: 20%;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    
+    transition: all 0.6s;
+}
+.h1-sobremi{
+    font-size: 18px;
+}
+
+.col-4.middle{
+    width: 25%;
+    background-color: rgb(194, 191, 191);
+    
+}
+
+.star img{
+    width: 300px;
+}
+
+.facebook{
+    text-decoration: none;
+    color: white;
+}
+.facebook:hover{
+    font-size: 12px;
+    color:  rgb(194,55,219);
+    
+}
